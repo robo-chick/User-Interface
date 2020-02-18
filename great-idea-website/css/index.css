@@ -127,25 +127,74 @@ header nav a {
 #middle .container {
 	display: inline-block;
 	width: 100%;
-	padding: 25%;
 	border-top: 1px solid black;
 }
 
 .features {
 	display: inline-block;
-	width: 45%;
-	margin: 10px;
+	width: 35%;
+	margin: 50px 0px 50px 200px;
+	line-height: 1.2;
+	text-align: left;
 }
 
 .about {
 	display: inline-block;
-	width: 45%;
-	margin: 10px;
+	width: 35%;
+	line-height: 1.2;
+	text-align: left;
 }
 
 .middle-img {
 	display: inline-block;
-	margin: 0 25px;
-	width: 80%;
-	height: 180px;
+	margin: 0 10%;
+	width: 75%;
+	height: 250px;
+}
+
+#bottom .container-two {
+	display: inline-block;
+	width: 100%;
+	padding: 2%;
+	margin: 2%;
+}
+
+.services {
+	display: inline-block;
+	width: 25%;
+	margin-left: 8%;
+	line-height: 1.2;
+	text-align: left;
+}
+
+.products {
+	display: inline-block;
+	width: 25%;
+	line-height: 1.2;
+	text-align: left;
+}
+
+.vision {
+	display: inline-block;
+	width: 25%;
+	line-height: 1.2;
+	text-align: left;
+}
+
+address {
+	display: inline-block;
+	padding-top: 5%;
+	width: 100%;
+	margin-top: 30px;
+	border-top: 1px solid;
+}
+
+address .contact {
+	line-height: 1.7;
+	margin-top: 1%;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 5%;
 }
