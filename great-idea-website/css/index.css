@@ -65,15 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
 	max-width: 100%;
 }
 
 p {
 	font-size: 20px;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2 {
@@ -81,27 +77,20 @@ h2 {
 }
 
 .navbar {
-	display: inline-block;
-	width: 40%;
-	color: lightslategray;
-}
-
-header {
-	display: inline-block;
 	width: 100%;
 }
 
 header nav a {
-	width: 90%;
+	display: inline-block;
 	text-decoration: none;
-	margin: 30px;
+	margin: 50px;
 	color: lightslategray;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .logo {
-	margin-left: 70%;
-	max-width: 100%;
+	display: inline-block;
+	margin-left: 10%;
+	width: 275px;
 }
 
 #top .container {
@@ -110,18 +99,23 @@ header nav a {
 }
 
 #top .get-started-btn {
-	display: inline-block;
 	width: auto;
-	margin-left: 275px;
+	margin-left: 400px;
 	margin-bottom: 50px;
 	padding: 10px 15px;
+	background-color: white;
 	border: 1px solid black;
 }
 
 #top h1 {
-	font-size: 50px;
+	font-size: 150px;
 	text-align: center;
-	padding: 15px;
+	padding: 10px;
+}
+
+#top img {
+	height: 600px;
+	width: 600px;
 }
 
 #middle .container {
@@ -149,7 +143,7 @@ header nav a {
 	display: inline-block;
 	margin: 0 10%;
 	width: 75%;
-	height: 250px;
+	height: 300px;
 }
 
 #bottom .container-two {
