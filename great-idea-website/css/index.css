@@ -85,6 +85,7 @@ header nav a {
 	text-decoration: none;
 	margin: 50px;
 	color: lightslategray;
+	vertical-align: top;  
 }
 
 .logo {
