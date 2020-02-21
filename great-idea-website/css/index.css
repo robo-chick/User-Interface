@@ -182,15 +182,15 @@ header nav a {
 
 address {
 	display: inline-block;
-	padding-top: 5%;
 	width: 100%;
-	margin-top: 30px;
+	margin: 5% 0 10% 5%;
 	border-top: 1px solid;
 }
 
 address .contact {
+	display: inline-block;
 	line-height: 1.7;
-	margin-top: 1%;
+	
 }
 
 footer {
