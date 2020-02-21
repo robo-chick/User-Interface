@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,136 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	max-width: 100%;
+}
+
+p {
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: lightskyblue;
+	position: fixed;
+}
+
+header nav a {
+	display: inline-block;
+	text-decoration: none;
+	margin: 50px;
+	color: lightslategray;
+	vertical-align: top;  
+}
+
+.logo {
+	display: inline-block;
+	margin-left: 10%;
+	width: 275px;
+}
+
+#top .container {
+	display: inline-block;
+	width: 50%;
+}
+
+#top .get-started-btn {
+	width: auto;
+	margin-left: 400px;
+	margin-bottom: 50px;
+	padding: 10px 15px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#top h1 {
+	font-size: 150px;
+	text-align: center;
+	padding: 10px;
+}
+
+#top img {
+	height: 500px;
+	width: 500px;
+	margin-top: 100px;
+}
+
+#middle .container {
+	display: inline-block;
+	width: 100%;
+	border-top: 1px solid black;
+}
+
+.features {
+	display: inline-block;
+	width: 35%;
+	margin: 50px 0px 50px 200px;
+	line-height: 1.2;
+	text-align: left;
+}
+
+.about {
+	display: inline-block;
+	width: 35%;
+	line-height: 1.2;
+	text-align: left;
+}
+
+.middle-img {
+	display: inline-block;
+	margin: 0 10%;
+	width: 75%;
+	height: 300px;
+}
+
+#bottom .container-two {
+	display: inline-block;
+	width: 100%;
+	padding: 2%;
+	margin: 2%;
+}
+
+.services {
+	display: inline-block;
+	width: 25%;
+	margin-left: 8%;
+	line-height: 1.2;
+	text-align: left;
+}
+
+.products {
+	display: inline-block;
+	width: 25%;
+	line-height: 1.2;
+	text-align: left;
+}
+
+.vision {
+	display: inline-block;
+	width: 25%;
+	line-height: 1.2;
+	text-align: left;
+}
+
+address {
+	display: inline-block;
+	width: 100%;
+	margin: 5% 0 10% 5%;
+	border-top: 1px solid;
+}
+
+address .contact {
+	display: inline-block;
+	line-height: 1.7;
+	
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 5%;
+}
